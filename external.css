@@ -1,0 +1,189 @@
+body {
+  background: transparent;
+  margin: auto;
+}
+.head{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+
+.head h1{
+  color:#3399ff ;
+  font-size: 85px;
+  padding: 20px;
+  width: 200px;
+}
+
+.title {
+  background-color: #1ad1ff;
+  text-align: center;
+  padding: 0.5px;
+  color: #3399ff;
+  font-size: xx-large;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #1ad1ff;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 23px 28px;
+  text-decoration: none;
+
+}
+.navbar a:hover {
+  background-color: #555;
+  color:#00cccc;
+  font-size: xx-large;
+}
+.welcome{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+}
+.welcome h1,h2{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 30%;
+  color: #1ad1ff;
+}
+.about h1{
+  text-align: center;
+  font-size: xx-large;
+  color: paleturquoise;
+  padding: 4px;
+}
+.image img{
+  height: 5%;
+  width: 70%;
+  margin-left: 175px;
+}
+.image p{
+  font-size: x-large;
+  font-display: block;
+  text-align: justify;
+}4
+.frame{
+  border: solid 20px royalblue;
+}
+.frame caption{
+  font-size: 50px;
+  font-display: block;
+  text-align: center;
+  font-style: italic;
+}
+.frame h1{
+  font-style: oblique;
+  text-decoration: underline;
+}
+.frame th{
+  width: 40%;
+}
+.frame td{
+  text-align: center;
+  font-size: 20px;
+}
+ h2{color:blue;}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA;
+  color: white;
+  padding: 12px 20px;
+  border: black 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+form{
+  float: left;
+  display: block;
+  width: 75%;
+  margin-left: 200px;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: right;
+  padding: 10px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
